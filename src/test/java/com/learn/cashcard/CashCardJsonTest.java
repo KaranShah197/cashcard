@@ -30,7 +30,7 @@ class CashCardJsonTest {
     String expected = """
         {
            "id":100,
-           "amount":123.45
+           "amount":67.89
         }
         """;
     assertThat(json.parse(expected))
